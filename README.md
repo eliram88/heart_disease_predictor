@@ -70,7 +70,7 @@ heart-disease-predictor/
 │   └── feature_order.pkl            # ترتیب صحیح ویژگی‌ها
 │
 ├── 📁 dashboard/
-│   └── dashboard-screenshot.png     # تصویر داشبورد نهایی sreamlit
+│   └── dashboard-screenshot.png     # تصویر داشبورد نهایی streamlit
 │
 ├── 📄 README.md                     # توضیح پروژه (همین فایل)
 ```
