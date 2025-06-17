@@ -2,9 +2,10 @@
 
 # Heart Disease Predictor
 
-🎯 هدف پروژه:  پیش‌بینی بیماری قلبی بر اساس ویژگی‌های پزشکی بیماران با استفاده از یادگیری ماشین
+🎯 هدف پروژه: پیش‌بینی احتمال بیماری قلبی با استفاده از ویژگی‌های پزشکی بیماران
 
 دیتاست: https://archive.ics.uci.edu/dataset/45/heart+disease
+خروجی: https://hdpredictor.streamlit.app/
 
 
 ## 🔧 ابزارهای استفاده‌شده
@@ -25,10 +26,11 @@
 6. **داشبورد تعاملی با Streamlit**
 7. **آماده‌سازی برای انتشار در GitHub و Streamlit Cloud**
 
+
 ## 🚀 خروجی‌ها
 
 - 🌐 اپ Streamlit (`app/app_heart_disease.py`)
-- 📋 تحلیل عددی + نمودارها (Jupyter Notebook)
+- 📋 تحلیل عددی، مهندسی ویژگی و بررسی مدل (Jupyter Notebook)
 
 
 ## 💡 ویژگی‌های کلیدی
@@ -49,4 +51,32 @@ streamlit run app/app_heart_disease.py
 https://hdpredictor.streamlit.app/
 
 
-📌 پروژه Data Analyst / Data Science Intern
+## 📁 ساختار فایل‌ها
+
+heart-disease-predictor/
+│
+├── 📁 data/
+│   └── heart_disease.csv            # دیتای اصلی
+│
+├── 📁 notebook/
+│   └── HDpredictor.ipynb            # تحلیل داده و مدل‌سازی (Jupyter Notebook)
+│
+├── 📁 app/
+│   └── app_heart_disease.py         # اپ Streamlit
+│   └── requirements.txt             # لیست کتابخانه‌ها
+│   └── heart_disease_model.pkl      # مدل ذخیره‌شده
+│   └── scaler.pkl                   # نرمال‌ساز داده
+│   └── feature_order.pkl            # ترتیب صحیح ویژگی‌ها
+│
+├── 📁 dashboard/
+│   └── dashboard-screenshot.png     # تصویر داشبورد نهایی sreamlit
+│
+├── 📄 README.md                     # توضیح پروژه (همین فایل)
+
+
+## 🧑‍💻 توسعه‌دهنده
+
+این پروژه توسط یک علاقه‌مند به تحلیل داده و یادگیری ماشین طراحی و اجرا شده  
+با هدف شرکت در موقعیت "کارآموز تحلیلگر داده / دیتا ساینتیست".
+
+✨ هدف: توسعه نمونه کار قابل ارائه، تمرین تحلیل واقعی، یادگیری مدل‌سازی حرفه‌ای و تفسیر مدل
