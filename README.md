@@ -45,7 +45,7 @@ pip install -r app/requirements.txt
 streamlit run app/app_heart_disease.py
  ```
 
-### 🌐 [اجرای اپ آنلاین در Streamlit Cloud]:
+### 🌐 اجرای اپ آنلاین در Streamlit Cloud:
 https://hdpredictor.streamlit.app/
 
 
