@@ -5,6 +5,7 @@
 🎯 هدف پروژه: پیش‌بینی احتمال بیماری قلبی با استفاده از ویژگی‌های پزشکی بیماران
 
 دیتاست: https://archive.ics.uci.edu/dataset/45/heart+disease
+
 خروجی: https://hdpredictor.streamlit.app/
 
 
@@ -52,7 +53,7 @@ https://hdpredictor.streamlit.app/
 
 
 ## 📁 ساختار فایل‌ها
-
+```bash
 heart-disease-predictor/
 │
 ├── 📁 data/
@@ -72,7 +73,7 @@ heart-disease-predictor/
 │   └── dashboard-screenshot.png     # تصویر داشبورد نهایی sreamlit
 │
 ├── 📄 README.md                     # توضیح پروژه (همین فایل)
-
+```
 
 ## 🧑‍💻 توسعه‌دهنده
 
