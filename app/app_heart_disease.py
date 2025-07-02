@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # ⬇ بارگذاری مدل، اسکیلر و ترتیب ستون‌ها
-model = joblib.load('heart_disease_model.pkl')
+model = joblib.load('app/heart_disease_model.pkl')
 scaler = joblib.load('scaler.pkl')
 feature_order = joblib.load('feature_order.pkl')  # لیست نام ستون‌ها با ترتیب درست
 
