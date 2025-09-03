@@ -3,7 +3,8 @@
 # Heart Disease Predictor
 
 🎯 Project goal: Predicting the likelihood of heart disease based on patients’ medical attributes using machine learning models and provide an interactive Streamlit dashboard for end-users. 
-Dataset: https://archive.ics.uci.edu/dataset/45/heart+disease
+
+Dataset: https://archive.ics.uci.edu/dataset/45/heart+disease  
 Result: https://hdpredictor.streamlit.app
 
 
@@ -81,3 +82,4 @@ This project was developed by a data analysis and machine learning enthusiast wi
 - Gaining practical experience in medical data modeling
 - Building a professional portfolio project
 - Practicing deployment of ML models in real-world apps
+
