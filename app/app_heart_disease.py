@@ -5,8 +5,8 @@ import joblib
 
 # ⬇ بارگذاری مدل، اسکیلر و ترتیب ستون‌ها
 model = joblib.load('app/heart_disease_model.pkl')
-scaler = joblib.load('scaler.pkl')
-feature_order = joblib.load('feature_order.pkl')  # لیست نام ستون‌ها با ترتیب درست
+scaler = joblib.load('app/scaler.pkl')
+feature_order = joblib.load('app/feature_order.pkl')  # لیست نام ستون‌ها با ترتیب درست
 
 st.title(" Predicting Heart Disease ❤️")
 st.write("Enter the following values:")
